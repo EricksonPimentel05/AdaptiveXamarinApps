@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Page 3" Padding="0, 20, 0, 0"
+             xmlns:views="clr-namespace:MasterDetailContentViews.Views;assembly=MasterDetailContentViews"
+             x:Class="MasterDetailContentViews.Page3Tabbed" BackgroundColor="Green">
+  <NavigationPage Title="View 1">
+    <x:Arguments>
+      <ContentPage >
+        <views:ContentView1 />
+      </ContentPage>
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="View 2">
+    <x:Arguments>
+      <ContentPage>
+        <views:ContentView2 />
+      </ContentPage>
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="View 3">
+    <x:Arguments>
+      <ContentPage>
+        <views:ContentView3 />
+      </ContentPage>
+    </x:Arguments>
+  </NavigationPage>
+</TabbedPage>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Icon="Hamburger.png"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Page 2" Padding="0, 20, 0, 0"
+             x:Class="MasterDetailContentViews.Page2" BackgroundColor="Red">
+  <Label Text="Page 2" VerticalOptions="Center" HorizontalOptions="Center" />
+</ContentPage>
